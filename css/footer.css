@@ -1,0 +1,75 @@
+/* 页脚 */
+
+#footer .ctitle {
+    height: 100px;
+    line-height: 40px;
+    margin-top: 80px;
+    border-top: 4px solid red;
+    background-color: #f2f2f2;
+    padding: 1px;
+}
+
+#footer .safe {
+    text-align: center;
+    line-height: 100px;
+    /* background-color: #f2f2f2; */
+}
+
+#footer .safe li {
+    float: left;
+    margin-left: 130px;
+}
+
+#footer .gototop {
+    position: relative;
+}
+
+#footer .gototop img {
+    position: absolute;
+    top: -55px;
+    right: 0;
+}
+
+#footer .foo {
+    font-size: 16px;
+}
+
+#footer .foomenu {
+    margin: 71px 0 0 100px;
+}
+
+#footer .foomenu ul {
+    float: left;
+    margin-left: 80px;
+}
+
+#footer .foomenu li {
+    text-align: center;
+    line-height: 30px;
+}
+
+#footer .foomenu h3 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+}
+
+
+/* 底部导航 */
+
+#footer .foonav {
+    margin: 50px 0 0 125px;
+}
+
+#footer .foonav li {
+    float: left;
+    margin-left: 15px;
+}
+
+#footer .foonav li span {
+    margin-left: 20px;
+}
+
+#footer .foo p {
+    margin: 27px 0 0 379px;
+}

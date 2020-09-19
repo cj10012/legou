@@ -1,0 +1,236 @@
+#header .welcome {
+    margin-top: 30px;
+    margin-left: -90px;
+    font-size: 30px;
+    color: #666666;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+
+/* 内容 */
+
+#content .conimg {
+    height: 467px;
+    background: url(../images/loginl_001.jpg) no-repeat center;
+}
+
+
+/* 标题 */
+
+#content .contitle {
+    height: 44px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-top: 25px;
+    position: relative;
+}
+
+#content .indoor .contitle a {
+    margin-left: 40px;
+}
+
+#content .contitle span {
+    position: absolute;
+    left: 134px;
+    top: 6px;
+    height: 24px;
+    color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+}
+
+#content .conscan {
+    margin-top: 40px;
+    /* display: none; */
+    position: relative;
+}
+
+#content .conscan img {
+    width: 127px;
+}
+
+#content .conscan .consImg_one {
+    position: absolute;
+    left: 69px;
+    display: block;
+}
+
+#content .conscan .consImg_two {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+#content .conscan p {
+    position: absolute;
+    left: 0;
+    bottom: -195px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#content .conscan p a {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+
+/* 登录 */
+
+#content .indoor {
+    position: absolute;
+    right: 314px;
+    top: 339px;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+}
+
+#content .indoor .ind {
+    width: 258px;
+    height: 400px;
+    padding: 20px;
+}
+
+#content .indoor a {
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    cursor: pointer;
+    /* margin-left: 50px; */
+}
+
+#content .indoor .conlogn {
+    display: none;
+}
+
+#content .indoor .conlogn input {
+    border: 1px solid #ccc;
+    width: 251px;
+    height: 38px;
+    margin-bottom: 35px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    text-indent: 40px;
+    outline: none;
+    /* display: none; */
+}
+
+#content .indoor input[type='submit'] {
+    color: #fff;
+    background-color: #ff6700;
+    border: none;
+    text-indent: 0;
+}
+
+#content .indoor p {
+    position: relative;
+}
+
+#content .indoor .conlogn span {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 37px;
+    height: 37px;
+    background: url(../images/pwd-icons-new.png);
+}
+
+#content .indoor .conlogn .icon_del {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    width: 19px;
+    height: 16px;
+    background: url(../images/pwd-icons-new.png);
+    background-position: -48px -142px;
+    background-color: 0;
+    display: none;
+    cursor: pointer;
+}
+
+
+/* 自动登录 */
+
+#content .chlogin {
+    width: 15px !important;
+    height: 20px !important;
+    border-radius: 0;
+}
+
+
+/* 忘记密码 */
+
+#content .forget {
+    font-size: 14px !important;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+
+/* 立即注册 */
+
+#content .registers {
+    position: absolute;
+    height: 50px;
+    background-color: #fcfcfc;
+    line-height: 50px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+}
+
+#content .registers .icon_reg {
+    position: absolute;
+    top: 15px;
+    left: 92px;
+    width: 17px;
+    height: 19px;
+    background: url(../images/pwd-icons-new.png);
+    background-position: -103px -75px;
+}
+
+#content .registers a {
+    color: #ff6700;
+}
+
+#content .indoor .conlogn .icon_name {
+    background-position: 0 0;
+}
+
+#content .indoor .conlogn .icon_pwd {
+    background-position: -50px 0;
+}
+
+#content .indoor .delImg {
+    position: absolute;
+    right: 9px;
+    top: 13px;
+    width: 20px;
+    display: none;
+}
+
+#content .indoor .cloImg {
+    position: absolute;
+    right: 9px;
+    top: 13px;
+    width: 20px;
+}
+
+#content .indoor .close {
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    font-size: 24px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #ccc;
+}

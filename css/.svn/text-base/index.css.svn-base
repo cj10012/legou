@@ -1,0 +1,513 @@
+/* banner */
+
+#banner .sidebar .left {
+    width: 198px;
+    height: 470px;
+    /* border: 1px solid #131010; */
+}
+
+#banner .sidebar li {
+    line-height: 36px;
+    height: 36px;
+    text-indent: 20px;
+    position: relative;
+}
+
+#banner .sidebar li .coo {
+    position: absolute;
+    z-index: 1000;
+}
+
+
+/* 详情 */
+
+#banner .sidebar .detail {
+    width: 579px;
+    height: 600px;
+    border: 1px solid red;
+    position: absolute;
+    left: 197px;
+    top: 0;
+    padding: 0 70px 0 30px;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+}
+
+#banner .sidebar .detail li {
+    margin-top: 20px;
+}
+
+#banner .sidebar .library p {
+    line-height: 40px;
+    float: left;
+    margin: -15px 10px 5px 0;
+}
+
+#banner .sidebar .detail h2 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #ff6600;
+}
+
+#banner .sidebar .books li:hover .coo {
+    width: 197px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-color: #f60;
+    border-right: 0;
+}
+
+#banner .sidebar .books li:hover .detail {
+    display: block;
+}
+
+
+/* 轮播图 */
+
+#banner .sidebar .right {
+    width: 998px;
+    height: 400px;
+    /* border: 1px solid red; */
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* 今日推荐 */
+
+#recommend .rec_p {
+    margin-top: 50px;
+    border-bottom: 4px solid #ff6600;
+}
+
+#recommend .rec_p h1 {
+    font-size: 24px;
+    color: #ff6600;
+    font-family: SimHei;
+    font-weight: normal;
+}
+
+#recommend .rec_u {
+    height: 530px;
+    margin-left: 20px;
+    /* padding: 0 20px; */
+    /* border: 1px solid red; */
+}
+
+#recommend .rec_u li {
+    float: left;
+    /* margin-left: 40px; */
+    text-align: left;
+    padding: 0 10px;
+    width: 170px;
+    border: 1px solid red;
+    font-size: 12px;
+    color: red;
+}
+
+#recommend .rec_u p:nth-child(3) {
+    color: #333333;
+}
+
+#recommend .rec_u p:last-child {
+    font-size: 24px;
+}
+
+
+/* 图书、电子书 */
+
+
+/* 标题 */
+
+#book {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+#book .btitle {
+    width: 904px;
+    height: 40px;
+    /* border: 1px solid red; */
+    line-height: 40px;
+    border-bottom: 4px solid red;
+}
+
+#book .btitle h1 {
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+#book .btitle p {
+    float: left;
+    padding: 0 20px 0;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
+
+#book .btitle .active {
+    background-color: #f60;
+}
+
+
+/* 左边内容 */
+
+#book .bcont .bcleft {
+    width: 238px;
+    /* border: 1px solid red; */
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+#book .bcont .bcleft li {
+    margin-top: 20px;
+}
+
+#book .bcont .bcleft li a {
+    margin-right: 10px;
+}
+
+.ccc {
+    width: 903px;
+    height: 435px;
+}
+
+
+/* 右边 */
+
+#book .bcont .bckright {
+    width: 660px;
+    /* border: 1px solid #ccc; */
+}
+
+#book .bcont .bckright li {
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    width: 163px;
+    height: 219px;
+}
+
+#book .bcont .bckright li p img {
+    width: 158px;
+    height: 116px;
+}
+
+#book .bcont .bcnbone {
+    display: block;
+}
+
+#book .bckright li p {
+    margin-top: 10px;
+}
+
+#book .bckright li p:first-child {
+    font-size: 18px;
+}
+
+#book .bckright li p:not(:first-child) {
+    color: red;
+}
+
+#book .bcont .bclu {
+    width: 328px !important;
+}
+
+.bckright .clo_i10 img {
+    width: 171px !important;
+    /* border: none; */
+}
+
+
+/* 新书畅销榜 */
+
+.example {
+    width: 284px;
+    height: 439px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.example h1 {
+    font-size: 24px;
+    color: #808080;
+    font-weight: normal;
+    text-align: center;
+    line-height: 70px;
+}
+
+.example li {
+    margin-top: 15px;
+}
+
+.example li span {
+    margin-left: 5px;
+}
+
+.example .exa_bo {
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.example .exa_bo p {
+    width: 126px;
+    height: 115px;
+}
+
+
+/* 轮播图 */
+
+
+/* 家具日用 */
+
+#furniture {
+    margin-bottom: 50px;
+}
+
+#furniture .clothings .ctitle {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 4px solid red;
+}
+
+#furniture .clothings .ctitle h1 {
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+#furniture .ctitle .bmenu p {
+    float: left;
+    padding: 0 20px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+#furniture .bcont .bcleft {
+    width: 465px;
+    /* border: 1px solid red; */
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+#furniture .bcont .bcleft li {
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#furniture .bcont .bcleft li a {
+    margin-right: 10px;
+}
+
+#furniture .bcont .bcleft img {
+    width: 478px;
+    height: 505px;
+}
+
+
+/* 右边 */
+
+#furniture .bcont .bckright {
+    width: 720px;
+    height: 500px;
+    /* border: 1px solid #ccc; */
+}
+
+#furniture .bcont .bckright li {
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+#furniture .b_i109 {
+    width: 178px;
+    height: 342px;
+}
+
+#furniture .b_i100 {
+    width: 178px;
+    height: 159px;
+    /* border: 1px solid #ccc; */
+}
+
+
+/* 推广商品 */
+
+#generalize .clothings .ctitle {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 4px solid red;
+}
+
+#generalize .clothings .ctitle h1 {
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+#generalize .clothings .gencont li {
+    float: left;
+    text-align: center;
+    width: 240px;
+    height: 280px;
+    /* background-color: #f2f2f2; */
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+#generalize .clothings .gencont p {
+    line-height: 20px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#generalize .gencont p:nth-child(3) {
+    color: red;
+    font-size: 24px;
+}
+
+#generalize .gencont p span {
+    color: red;
+}
+
+#generalize .gencont p i {
+    width: 25px;
+    height: 16px;
+    display: inline-block;
+    background: url(../images/index27_14.jpg) no-repeat center;
+    background-position: -4px -4px;
+}
+
+
+/* 二维码 */
+
+#qrcode .qrc_d {
+    width: 37px;
+    height: 178px;
+    /* border: 1px solid red; */
+    position: fixed;
+    right: 0;
+    top: 30%;
+    margin-top: -100px;
+}
+
+#qrcode .qrc_d .qrc_t {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    /* border: 1px solid red; */
+    background: url(../images/two_30.jpg);
+    right: 0;
+    top: 2px;
+}
+
+#qrcode .qrc_d .qrc_c {
+    position: absolute;
+    width: 36px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background: url(../images/two_35.jpg);
+    right: 0;
+    top: 38px;
+}
+
+#qrcode .qrc_d .qrc_b {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    /* border: 1px solid red; */
+    background: url(../images/two_40.jpg);
+    right: 0;
+    bottom: 4px;
+}
+
+#qrcode .qrc_d .qrc_er {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid red; */
+    background: url(../images/two_34.jpg);
+    right: 36px;
+    top: 38px;
+    display: none;
+}
+
+
+/* 楼层 */
+
+#floor {
+    position: fixed;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -660px;
+    width: 40px;
+    height: 200px;
+}
+
+#floor ul {
+    background-color: #f2f2f2;
+}
+
+#floor li {
+    padding-left: 40px;
+    height: 40px;
+    background: url(../images/fix_box_icon_160622.png) no-repeat center;
+    overflow: hidden;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+#floor .iconc .icon_one {
+    background-position: 0 0;
+}
+
+#floor .iconc .icon_two {
+    background-position: 0 -79px;
+}
+
+#floor .iconc .icon_three {
+    background-position: 0 -161px;
+}
+
+#floor .iconc .icon_four {
+    background-position: 0 -199px;
+}
+
+#floor .iconc .icon_five {
+    background-position: 0 -321px;
+}
+
+
+/* 顶部搜索栏 */
+
+.topsearch {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(250, 100, 80, 0.5);
+    border-bottom: 2px solid #f60;
+    display: none;
+}

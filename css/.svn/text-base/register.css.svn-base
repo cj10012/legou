@@ -1,0 +1,124 @@
+#header {
+    border-bottom: 2px solid #ccc;
+}
+
+#header .welcome {
+    position: relative;
+}
+
+#header .welcome .wr_lg {
+    position: absolute;
+    right: 213px;
+    top: 0;
+}
+
+
+/* 表单 */
+
+#contreg {
+    width: 500px;
+    height: 800px;
+    padding: 20px;
+}
+
+#contreg input {
+    width: 500px;
+    height: 46px;
+    margin-top: 30px;
+    text-indent: 120px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #000;
+}
+
+#contreg label {
+    margin-left: 124px;
+    font-size: 16px;
+    color: red;
+}
+
+input::-webkit-input-placeholder {
+    color: #e6e6e6;
+}
+
+#contreg .cbox {
+    width: 16px !important;
+    height: 18px !important;
+    text-align: center;
+    line-height: 59px;
+}
+
+#contreg input[type='submit'] {
+    text-indent: 0 !important;
+    background-color: #ff6700;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30px !important;
+}
+
+#contreg p {
+    position: relative;
+}
+
+#contreg .cont_mm {
+    height: 50px;
+}
+
+#contreg span {
+    position: absolute;
+    left: 10px;
+    top: 42px;
+    font-size: 18px;
+}
+
+#contreg a {
+    color: #ff6700;
+}
+
+#contreg p .read {
+    font-size: 14px !important;
+    margin-left: 10px;
+    top: 30px !important;
+}
+
+
+/* 验证码 */
+
+#contreg .verify {
+    position: absolute;
+    width: 107px;
+    height: 44px;
+    background-color: #1a83e5;
+    top: 31px;
+    right: 1px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#contreg .getverify {
+    position: absolute;
+    width: 107px;
+    height: 42px;
+    top: 32px;
+    right: 1px;
+    text-align: center;
+    background-color: #e6e6e6;
+    line-height: 40px;
+    font-size: 18px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+
+/* 底部边线 */
+
+#footer .foo {
+    border-top: 2px solid #ccc;
+}

@@ -1,0 +1,309 @@
+#banner .left {
+    position: absolute;
+    z-index: 20;
+    display: none;
+}
+
+#banner .right {
+    z-index: 1;
+}
+
+.sidebar {
+    position: relative;
+}
+
+
+/* 详情 */
+
+
+/* banner */
+
+#banner .sidebar .left {
+    width: 198px;
+    height: 470px;
+    /* border: 1px solid #131010; */
+}
+
+#banner .sidebar li {
+    line-height: 36px;
+    height: 36px;
+    text-indent: 20px;
+    position: relative;
+}
+
+#banner .sidebar li .coo {
+    position: absolute;
+    z-index: 1000;
+}
+
+
+/* 详情 */
+
+#banner .sidebar .detail {
+    width: 579px;
+    height: 600px;
+    border: 1px solid red;
+    position: absolute;
+    left: 197px;
+    top: 0;
+    padding: 0 70px 0 30px;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+}
+
+#banner .sidebar .detail li {
+    margin-top: 20px;
+}
+
+#banner .sidebar .library p {
+    line-height: 40px;
+    float: left;
+    margin: -15px 10px 5px 0;
+}
+
+#banner .sidebar .detail h2 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #ff6600;
+}
+
+#banner .sidebar .books li:hover .coo {
+    width: 197px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-color: #f60;
+    border-right: 0;
+}
+
+#banner .sidebar .books li:hover .detail {
+    display: block;
+}
+
+
+/* 新书畅销榜 */
+
+.example {
+    width: 284px;
+    height: 398px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.example h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    /* line-height: 70px; */
+    background-color: #93d46f;
+}
+
+.example li {
+    margin-top: 10px;
+}
+
+.example li span {
+    background-color: #ff6600;
+    text-align: left;
+}
+
+.example .exa_bo {
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.example .exa_bo p {
+    width: 126px;
+    height: 115px;
+}
+
+
+/* 广告 */
+
+#wcraraft {
+    margin-top: 20px;
+}
+
+
+/* 乐购·图书折扣区 */
+
+
+/* 今日推荐 */
+
+#discount .ctitle {
+    margin-top: 50px;
+}
+
+#discount .ctitle h1 {
+    font-size: 24px;
+    color: #ff6600;
+    font-family: SimHei;
+    font-weight: normal;
+    border-bottom: 4px solid #ff6600;
+}
+
+#discount .rec_u {
+    margin-left: 20px;
+    /* padding: 0 20px; */
+    /* border: 1px solid red; */
+}
+
+#discount .rec_u i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/starlevel.jpg);
+    background-color: #f60;
+}
+
+#discount .rec_u li {
+    float: left;
+    /* margin-left: 40px; */
+    text-align: left;
+    padding: 0 10px;
+    width: 170px;
+    border: 1px solid red;
+    font-size: 12px;
+    color: red;
+    /* background-color: #ccc; */
+}
+
+#discount .rec_u p:nth-child(3) {
+    color: #333333;
+}
+
+#discount .rec_u p:last-child {
+    font-size: 24px;
+}
+
+
+/* 新书上架 */
+
+#newBook .newleft {
+    margin-top: 50px;
+}
+
+#newBook .btitle {
+    width: 904px;
+}
+
+#newBook .btitle h1 {
+    font-size: 22px;
+    color: #000;
+    font-family: SimHei;
+    font-weight: normal;
+    border-bottom: 4px solid #ff6600;
+}
+
+#newBook .btitle .bigtitle {
+    background-color: #f60;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 38px;
+    width: 39px;
+    height: 38px;
+    display: inline-block;
+}
+
+#newBook .bcont .bcnbone ul {
+    width: 904px;
+}
+
+#newBook .bcont .bcnbone li {
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    /* border: 1px solid #ccc; */
+    width: 163px;
+    height: 253px;
+    margin: 17px 0 0 16px;
+}
+
+#newBook .bcont .bcnbone li p {
+    margin-top: 10px;
+}
+
+
+/* 新书畅销榜 */
+
+
+/* 
+#newBook .bcont .newight {
+    position: relative;
+} */
+
+#newBook .bcont .newright .examples {
+    width: 284px;
+    height: 530px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    /* position: absolute;
+    right: 0;
+    top: -273px; */
+}
+
+#newBook .bcont .newright .examples h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+    /* line-height: 70px; */
+    background-color: #93d46f;
+}
+
+#newBook .newright .examples li {
+    margin-top: 10px;
+}
+
+#newBook .newright .examples li span {
+    background-color: #ff6600;
+    text-align: left;
+}
+
+#newBook .newright .examples .exa_bo {
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#newBook .nerwight .examples .exa_bo p {
+    width: 126px;
+    height: 115px;
+}
+
+
+/* 独家提供 */
+
+#exclusive .exclu {
+    margin-top: 50px;
+}
+
+#exclusive .btitle h1 {
+    font-size: 22px;
+    color: #000;
+    font-family: SimHei;
+    font-weight: normal;
+    border-bottom: 4px solid #ff6600;
+}
+
+#exclusive .btitle .bigtitle {
+    background-color: #f60;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    line-height: 38px;
+    width: 39px;
+    height: 38px;
+    display: inline-block;
+}

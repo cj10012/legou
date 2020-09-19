@@ -1,0 +1,252 @@
+#banner .left {
+    position: absolute;
+    z-index: 20;
+    display: none;
+}
+
+#banner .right {
+    z-index: 1;
+}
+
+.sidebar {
+    position: relative;
+}
+
+
+/* 详情 */
+
+
+/* banner */
+
+#banner .sidebar .left {
+    width: 198px;
+    height: 470px;
+    border: 1px solid #131010;
+}
+
+#banner .sidebar li {
+    line-height: 36px;
+    height: 36px;
+    text-indent: 20px;
+    position: relative;
+}
+
+#banner .sidebar li .coo {
+    position: absolute;
+    z-index: 1000;
+}
+
+
+/* 详情 */
+
+#banner .sidebar .detail {
+    width: 579px;
+    height: 600px;
+    border: 1px solid red;
+    position: absolute;
+    left: 197px;
+    top: 0;
+    padding: 0 70px 0 30px;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+}
+
+#banner .sidebar .detail li {
+    margin-top: 20px;
+}
+
+#banner .sidebar .library p {
+    line-height: 40px;
+    float: left;
+    margin: -15px 10px 5px 0;
+}
+
+#banner .sidebar .detail h2 {
+    line-height: 20px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #e6e6e6;
+    font-size: 14px;
+    font-family: MicrosoftYaHei;
+    color: #ff6600;
+}
+
+#banner .sidebar .books li:hover .coo {
+    width: 197px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    border-color: #f60;
+    border-right: 0;
+}
+
+#banner .sidebar .books li:hover .detail {
+    display: block;
+}
+
+
+/* 放大镜 */
+
+#banner .magnifier {
+    background-color: #f2f2f2;
+}
+
+#banner .magnifier .batitle li:not(:first-child) {
+    float: left;
+    font-size: 18px;
+    line-height: 35px;
+    color: #333;
+}
+
+#banner .magnifier .magncenter {
+    height: 500px;
+    border: 1px solid red;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#banner .magnifier .magncenter .magnleft {
+    width: 342px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+#banner .magnifier .magncenter .magnright {
+    width: 650px;
+    height: 460px;
+    border: 1px solid red;
+    padding: 20px;
+    position: relative;
+}
+
+#banner .magnifier .magncenter .magntitle {
+    margin-bottom: 10px;
+}
+
+#banner .magnifier .magncenter .magntitle p {
+    margin-top: 10px;
+}
+
+#banner .magnifier .magncenter .evaluation {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#banner .magncenter .evaluation .price span {
+    margin: 0 10px;
+}
+
+#banner .magncenter .evaluation .price {
+    position: relative;
+}
+
+#banner .magncenter .evaluation .sum {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+}
+
+#banner .magncenter .price .icon_k {
+    display: inline-block;
+    width: 94px;
+    height: 26px;
+    background: url(../images/discount.png) no-repeat;
+    background-size: 94px 26px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+}
+
+#banner .magncenter .price .icon_d {
+    display: inline-block;
+    width: 94px;
+    height: 26px;
+    background: url(../images/discount.png) no-repeat;
+    background-size: 94px 26px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+}
+
+#banner .magncenter .species a {
+    margin: 10px 0 0 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#banner .magncenter .species .hardcover {
+    border: 2px solid #ff6600;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#banner .magncenter .species .hardcover i {
+    background: url(../images/select.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 14px;
+}
+
+#banner .magncenter .increase {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner .magncenter .increase .sum {
+    width: 42px;
+    height: 44px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    color: #808080;
+}
+
+#banner .magncenter .increase p {
+    width: 21px;
+    height: 21px;
+    background-color: #e6e6e6;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    font-size: 16px;
+}
+
+#banner .magncenter .increase .in_pone {
+    position: absolute;
+    top: 0;
+    left: 44px;
+}
+
+#banner .magncenter .increase .in_ptwo {
+    position: absolute;
+    top: 23px;
+    left: 44px;
+}
+
+#banner .magncenter .increase .shoppingCart {
+    position: absolute;
+    left: 118px;
+    top: -6px;
+    width: 190px;
+    height: 60px;
+    background-color: #ff6600;
+    border-radius: 2px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#banner .magncenter .prompt {
+    position: absolute;
+    bottom: 24px;
+    left: 19px;
+    color: #808080;
+    font-size: 16px;
+}

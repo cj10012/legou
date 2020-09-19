@@ -1,0 +1,93 @@
+/* 头部 */
+
+#header .top {
+    height: 28px;
+    background-color: #101010;
+}
+
+#header .top .lego a {
+    width: 104px;
+    height: 15px;
+    font-family: SimHei;
+    font-size: 18px;
+    line-height: 32px;
+    color: #e6e6e6;
+}
+
+#header .top .register {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+
+/* 搜索框 */
+
+.sech {
+    height: 36px;
+    position: relative;
+}
+
+.search {
+    background-color: #ffffff;
+    border: solid 2px #ff6600;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 0;
+}
+
+.search input {
+    width: 380px;
+    height: 34px;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    /* margin-top: -10px; */
+}
+
+.search .text {
+    text-indent: 8px;
+}
+
+.search .submit {
+    width: 50px;
+    background: url(../images/bgicon.png) no-repeat;
+}
+
+
+/* button按钮 */
+
+.btn {
+    width: 200px;
+    height: 36px;
+    margin-left: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.btn a {
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.btn .cart {
+    text-indent: 36px;
+    color: #ffffff;
+    font-size: 16px;
+    background: url(../images/bgicon.png) no-repeat 0px -42px #ff6600;
+}
+
+.indents {
+    color: #808080;
+    font-size: 16px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    width: 100px;
+    box-sizing: border-box;
+}

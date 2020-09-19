@@ -1,0 +1,30 @@
+var logodis = document.querySelector(".logmenu");
+var leftdis = document.querySelector('.left');
+console.log(leftdis);
+// console.log(logodis);
+var flag = false;
+logodis.addEventListener('click', function() {
+
+    if (!flag) {
+
+        leftdis.style.display = 'block'
+        flag = true;
+    } else {
+        leftdis.style.display = 'none'
+        flag = !flag;
+    }
+})
+
+
+/* 新书畅销榜
+     鼠标移入：显示当前的div 
+               隐藏其它的div 
+               隐藏自己的标题
+               显示其它的标题
+   */
+$(".bright ul li").mouseenter(function() {
+    $(this).find("div").show();
+    $(this).find(".title").hide()
+    $(this).siblings().find(".exa_bo").hide()
+    $(this).siblings().find(".title").show()
+})

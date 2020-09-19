@@ -1,0 +1,389 @@
+/* 版心 */
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 登录注册 */
+
+#header .welcome {
+    margin-top: 30px;
+    margin-left: -90px;
+    font-size: 30px;
+    color: #666666;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 清除浮动 */
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    zoom: 1;
+}
+
+
+/* 字体颜色 */
+
+.cff6 {
+    color: #ff6600;
+}
+
+.cff {
+    color: #fff;
+}
+
+.c80 {
+    color: #808080;
+}
+
+.cbf {
+    color: #bfbfbf;
+}
+
+.ccc {
+    color: #ccc;
+}
+
+.cff6 {
+    color: #ff6600;
+}
+
+.cred {
+    color: #f00;
+}
+
+.ce6 {
+    color: #e6e6e6;
+}
+
+
+/* margin */
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.ml20 {
+    margin-left: 20px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+
+/* 删除线 */
+
+.del {
+    text-decoration: line-through;
+}
+
+
+/* 背景颜色 */
+
+.bgf3 {
+    background-color: #f3f3f3;
+}
+
+.bgf60 {
+    background-color: #ff6600;
+}
+
+
+/* 字体大小 */
+
+.fz14 {
+    font-size: 14px;
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+.fz14 {
+    font-size: 14px;
+}
+
+.fz18 {
+    font-size: 18px;
+}
+
+.fz20 {
+    font-size: 20px;
+}
+
+.fz22 {
+    font-size: 22px;
+}
+
+.fz24 {
+    font-size: 24px;
+}
+
+.fz26 {
+    font-size: 26px;
+}
+
+.fz28 {
+    font-size: 28px;
+}
+
+.fw {
+    font-weight: normal;
+}
+
+
+/* 电子书 */
+
+#book .bleft .con {
+    display: none;
+}
+
+#book .bleft .con.cur {
+    display: block;
+}
+
+
+/* 菜单 */
+
+#header .menu {
+    width: 1000px;
+}
+
+#header .menu ul {
+    margin: -20px 0 0 110px;
+}
+
+#header .menu li {
+    font-size: 16px;
+    float: left;
+    padding-left: 30px;
+}
+
+
+/* 轮播图 */
+
+.pptbox {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pptbox .innerwrapper {
+    width: 2400px;
+    /*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+    height: 100px;
+    list-style: none;
+    position: absolute;
+    left: -400px;
+}
+
+.innerwrapper li {
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.innerwrapper li a {
+    display: block;
+}
+
+.innerwrapper li a img {
+    width: 400px;
+    height: 100px;
+    display: block;
+}
+
+.btnleft {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    background-color: black;
+    background-image: url(../images/arrow-left.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100;
+    color: #fff;
+}
+
+.btnright {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: black;
+    background-image: url(../images/arrow-right.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100;
+    color: #fff;
+}
+
+
+/*控制按钮开始*/
+
+.controls {
+    width: 96px;
+    position: absolute;
+    left: 152px;
+    bottom: 10px;
+    list-style: none;
+}
+
+.controls li {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.controls li.current {
+    background-color: aqua;
+    color: brown;
+}
+
+
+/*控制按钮结束*/
+
+
+/* 服装 */
+
+#clothing {
+    margin-bottom: 50px;
+}
+
+#clothing .clothings .ctitle {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 4px solid #ff6600;
+}
+
+#clothing .clothings .ctitle h1 {
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+    color: #333333;
+    font-weight: normal;
+    font-family: SimHei;
+}
+
+#clothing .ctitle .bmenu p {
+    float: left;
+    padding: 0 20px 0;
+    font-size: 18px;
+    color: #000;
+}
+
+#clothing .bcont .bcleft {
+    width: 238px;
+    height: 505px;
+    /* border: 1px solid red; */
+    background-color: #f9f9f9;
+    font-size: 14px;
+    background: url(../images/index_13.jpg);
+    position: relative;
+}
+
+#clothing .bcont .bcleft ul {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    width: 238px;
+}
+
+#clothing .bcont .bcleft li {
+    margin-top: 20px;
+}
+
+#clothing .bcont .bcleft li a {
+    margin-right: 10px;
+}
+
+
+/* 右边 */
+
+#clothing .bcont .bckright {
+    width: 960px;
+    height: 500px;
+    /* border: 1px solid #ccc; */
+}
+
+#clothing .bcont .bckright .bclu {
+    width: 400px;
+}
+
+#clothing .bcont .bckright li {
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#clothing .bckright .bclu {
+    width: 441px !important;
+}
+
+#clothing .clo_i11 {
+    width: 441px;
+}
+
+#clothing .bckright .clo_i23 {
+    width: 173px;
+    height: 340px;
+}
+
+#clothing .clo_i11 img {
+    width: 441px;
+}
+
+#clothing .b_i100 {
+    width: 173px;
+    height: 167px;
+    /* border: 1px solid red; */
+}
+
+#clothing .b_i100 img {
+    width: 171px;
+}
+
+#clothing .brand {
+    margin-top: 20px;
+}
+
+#clothing .brand img {
+    width: 130px;
+}
