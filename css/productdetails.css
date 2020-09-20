@@ -21,7 +21,7 @@
 #banner .sidebar .left {
     width: 198px;
     height: 470px;
-    border: 1px solid #131010;
+    /* border: 1px solid #131010; */
 }
 
 #banner .sidebar li {
@@ -42,7 +42,7 @@
 #banner .sidebar .detail {
     width: 579px;
     height: 600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     left: 197px;
     top: 0;
@@ -65,7 +65,7 @@
 #banner .sidebar .detail h2 {
     line-height: 20px;
     margin-bottom: 10px;
-    border-bottom: 3px solid #e6e6e6;
+    /* border-bottom: 3px solid #e6e6e6; */
     font-size: 14px;
     font-family: MicrosoftYaHei;
     color: #ff6600;
@@ -86,47 +86,48 @@
 
 /* 放大镜 */
 
-#banner .magnifier {
+#banner .magnifiers {
+    height: 650px;
     background-color: #f2f2f2;
 }
 
-#banner .magnifier .batitle li:not(:first-child) {
+#banner .magnifiers .batitle li:not(:first-child) {
     float: left;
     font-size: 18px;
     line-height: 35px;
     color: #333;
 }
 
-#banner .magnifier .magncenter {
+#banner .magnifiers .magncenter {
     height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #fff;
     padding: 20px;
 }
 
-#banner .magnifier .magncenter .magnleft {
+#banner .magnifiers .magncenter .magnleft {
     width: 342px;
     height: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-#banner .magnifier .magncenter .magnright {
-    width: 650px;
+#banner .magnifiers .magncenter .magnright {
+    width: 778px;
     height: 460px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px;
     position: relative;
 }
 
-#banner .magnifier .magncenter .magntitle {
+#banner .magnifiers .magncenter .magntitle {
     margin-bottom: 10px;
 }
 
-#banner .magnifier .magncenter .magntitle p {
+#banner .magnifiers .magncenter .magntitle p {
     margin-top: 10px;
 }
 
-#banner .magnifier .magncenter .evaluation {
+#banner .magnifiers .magncenter .evaluation {
     background-color: #f2f2f2;
     padding: 10px;
 }
@@ -222,12 +223,14 @@
     position: absolute;
     top: 0;
     left: 44px;
+    cursor: pointer;
 }
 
 #banner .magncenter .increase .in_ptwo {
     position: absolute;
     top: 23px;
     left: 44px;
+    cursor: pointer;
 }
 
 #banner .magncenter .increase .shoppingCart {
@@ -249,4 +252,359 @@
     left: 19px;
     color: #808080;
     font-size: 16px;
+}
+
+
+/* 商品编号 */
+
+#banner .numbering {
+    text-align: center;
+    margin-top: 17px;
+    color: #646464;
+}
+
+
+/* 人气单品 */
+
+#popularity .ctitle {
+    margin-top: 50px;
+}
+
+#popularity .ctitle .cti {
+    border-bottom: 4px solid #ff6600;
+}
+
+#popularity .ctitle h1 {
+    font-size: 24px;
+    color: #fff;
+    font-family: SimHei;
+    font-weight: normal;
+    background-color: #ff6600;
+    width: 100px;
+}
+
+#popularity .rec_u {
+    margin: 20px 0 0 20px;
+}
+
+#popularity .rec_u i {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/allstar.png);
+    background-size: 10px 10px;
+}
+
+#popularity .rec_u .rec_last {
+    background: url(../images/halfstar.png);
+    background-size: 10px 10px;
+}
+
+#popularity .rec_u li {
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+    width: 153px;
+    font-size: 12px;
+    color: red;
+    padding: 20px;
+}
+
+#popularity .rec_u p:nth-child(3) {
+    color: #333333;
+}
+
+#popularity .rec_u p:last-child {
+    font-size: 24px;
+}
+
+
+/* 看了又看 */
+
+#introduction {
+    padding: 0 50px;
+}
+
+#introduction .introleft {
+    margin-top: 50px;
+}
+
+#introduction .introleft .introtitle {
+    margin: 20px 0 0 20px;
+    width: 318px;
+    height: 40px;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    line-height: 40px;
+}
+
+#introduction .introleft .introtitle h1 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#introduction .rec_u {
+    margin-left: 20px;
+    width: 278px;
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+}
+
+#introduction .rec_u i {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/allstar.png);
+    background-size: 10px 10px;
+}
+
+#introduction .rec_u .rec_last {
+    background: url(../images/halfstar.png);
+    background-size: 10px 10px;
+}
+
+#introduction .rec_u li {
+    margin-top: 76px;
+    text-align: center;
+    width: 233px;
+    font-size: 12px;
+    color: red;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 20px;
+}
+
+#introduction .rec_u li:last-child {
+    border-bottom: 0;
+}
+
+#introduction .rec_u .rec_o {
+    text-align: left;
+    margin-left: 50px;
+}
+
+#introduction .rec_u p:nth-child(3) {
+    color: #333333;
+}
+
+#introduction .rec_u p:last-child {
+    font-size: 24px;
+}
+
+
+/* 商品介绍 */
+
+#introduction .introright {
+    width: 856px;
+    height: 500px;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+}
+
+#introduction .introright .cti {
+    margin-top: 7px;
+    padding-left: 20px;
+    border-bottom: 4px solid #ff6600;
+}
+
+#introduction .introright h1 {
+    font-size: 24px;
+    font-family: SimHei;
+    font-weight: normal;
+    padding: 10px;
+    width: 100px;
+}
+
+#introduction .introright h2 {
+    font-size: 24px;
+    font-family: SimHei;
+    font-weight: normal;
+    width: 144px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#introduction .introright .active {
+    color: #fff;
+    background-color: #ff6600;
+}
+
+#introduction .intro_con .praise {
+    width: 100px;
+    margin: 20px;
+}
+
+#introduction .intro_con .incc {
+    margin-left: 100px;
+    width: 500px;
+    height: 2400px;
+}
+
+#introduction .intro_con .incc img {
+    height: 2400px;
+}
+
+#introduction .intro_con .praise .prac {
+    width: 122px;
+}
+
+#introduction .intro_con .average {
+    width: 245px;
+    margin: 40px 40px 0 100px;
+}
+
+#introduction .intro_con .average p {
+    margin-bottom: 18px;
+    position: relative;
+}
+
+#introduction .intro_con .average p span {
+    width: 146px;
+    height: 16px;
+    background-color: #ccc;
+    position: absolute;
+    left: 87px;
+    top: 4px;
+}
+
+#introduction .intro_con .average .aver_r {
+    width: 138px;
+    height: 16px;
+    background-color: #f8380c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#introduction .intro_con .average .aver_l {
+    width: 5px;
+    height: 16px;
+    background-color: #f8380c;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#introduction .intro_con .introlike {
+    width: 322px;
+    margin-top: 40px;
+}
+
+#introduction .intro_con .introlike p {
+    float: left;
+    margin: 0 35px 15px 0;
+}
+
+
+/* 全部评价 */
+
+#introduction .intro_pro {
+    height: 30px;
+    background-color: #f5f5f5;
+    line-height: 30px;
+}
+
+#introduction .intro_pro li {
+    float: left;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+
+/* 用户评论 */
+
+#introduction .intro_ppr {
+    height: 126px;
+    margin-top: 64px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+#introduction .intro_ppr .intro_star {
+    margin-left: 27px;
+    width: 115px;
+}
+
+#introduction .intro_ppr i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/redpentagonal.png);
+    background-size: 20px 20px;
+}
+
+#introduction .intro_ppr .intro_move {
+    width: 20px;
+    height: 20px;
+    background: url(../images/graypentagonal.png);
+    background-size: 20px 20px;
+}
+
+#introduction .intro_ppr .intro_text {
+    width: 396px;
+    height: 31px;
+    margin-left: 90px;
+    font-size: 14px;
+    color: #666666;
+}
+
+#introduction .intro_ppr .intro_user {
+    width: 145px;
+    height: 50px;
+}
+
+#introduction .intro_ppr .intro_user p {
+    margin-top: 5px;
+    font-size: 14px;
+    position: relative;
+}
+
+#introduction .intro_ppr .intro_user p span {
+    position: absolute;
+    top: 6px;
+    right: 65px;
+}
+
+#introduction .intro_ppr .intro_user .user_ic {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/user.png);
+    background-size: 30px 30px;
+}
+
+
+/* 按钮 */
+
+#introduction .intro_btn {
+    width: 380px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#introduction .intro_btn li {
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: #e6e6e6;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#introduction .intro_btn .intro_ery {
+    background-color: #fff;
+}
+
+#introduction .intro_btn .intro_ver {
+    vertical-align: bottom;
+    background-color: #fff;
+    line-height: 42px;
+}
+
+#introduction .intro_btn .intro_next {
+    width: 64px;
 }

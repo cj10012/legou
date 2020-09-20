@@ -153,11 +153,17 @@
 }
 
 #discount .rec_u i {
+    content: '';
     display: inline-block;
     width: 10px;
     height: 10px;
-    /* background: url(../images/starlevel.jpg); */
-    background-color: #f60;
+    background: url(../images/allstar.png);
+    background-size: 10px 10px;
+}
+
+#discount .rec_u .rec_last {
+    background: url(../images/halfstar.png);
+    background-size: 10px 10px;
 }
 
 #discount .rec_u li {

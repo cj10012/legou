@@ -32,7 +32,7 @@ $("#newBook .newright ul li").mouseenter(function() {
 
 // 猜你喜欢
 let index = 0;
-let singeBoxHeight = $('#likebox>.pro-reo .likecont').outerHeight(true);
+let singeBoxHeight = $('#likebox .pro-reo .likecont').outerHeight(true);
 $('#likebox .likelse .bmenu').click(function() {
     index++;
     let st = -(index * singeBoxHeight);
@@ -41,6 +41,8 @@ $('#likebox .likelse .bmenu').click(function() {
     if (index === 3) {
         index = 0;
         $('#likebox  .pro-reo .likecont').css('top', index);
+
+
     } else {
         $('#likebox .pro-reo .likecont').css('top', st);
     }

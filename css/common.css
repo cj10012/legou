@@ -78,11 +78,19 @@
     color: #e6e6e6;
 }
 
+.cf4 {
+    color: #f4b212;
+}
+
 
 /* margin */
 
 .mt10 {
     margin-top: 10px;
+}
+
+.ml10 {
+    margin-left: 10px;
 }
 
 .ml20 {
@@ -91,6 +99,10 @@
 
 .mt15 {
     margin-top: 15px;
+}
+
+.ml30 {
+    margin-left: 30px;
 }
 
 
@@ -109,6 +121,10 @@
 
 .bgf60 {
     background-color: #ff6600;
+}
+
+.bg0 {
+    background-color: none;
 }
 
 
@@ -150,8 +166,27 @@
     font-size: 28px;
 }
 
+.fz72 {
+    font-size: 72px;
+}
+
 .fw {
     font-weight: normal;
+}
+
+
+/* 文字对齐 */
+
+.tal {
+    text-align: left;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tar {
+    text-align: right;
 }
 
 
@@ -168,15 +203,15 @@
 
 /* 菜单 */
 
-#header .menu {
+.menu {
     width: 1000px;
 }
 
-#header .menu ul {
+.menu ul {
     margin: -20px 0 0 110px;
 }
 
-#header .menu li {
+.menu li {
     font-size: 16px;
     float: left;
     padding-left: 30px;
