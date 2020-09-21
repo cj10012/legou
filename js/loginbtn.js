@@ -26,19 +26,19 @@ let consImg_one = document.querySelector('.consImg_one');
 let consImg_two = document.querySelector('.consImg_two')
     // console.log(cons);
 consImg_one.addEventListener('mouseenter', function() {
-    this.style.left = -10 + 'px'
+    // this.style.left = -10 + 'px'
     consImg_two.style.display = 'block'
     startMove(consImg_one, {
         left: -10
-    }, 5000, 'easeOut');
+    }, 300, 'easeOut');
 
 })
 consImg_one.addEventListener('mouseleave', function() {
-    this.style.left = 69 + 'px'
+    // this.style.left = 69 + 'px'
     consImg_two.style.display = 'none'
     startMove(consImg_one, {
         left: 69
-    }, 5000, 'easeOut');
+    }, 300, 'easeOut');
 })
 
 var icon_del = document.querySelector('.icon_del');
