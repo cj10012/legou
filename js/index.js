@@ -4,11 +4,41 @@ $(function() {
 
 
     // 电子书模块选项卡
-    $(".bleft .btitle .bmenu p").click(function() {
+    $("#book .bleft .btitle .bmenu p").click(function() {
+            $(this).addClass("active").siblings().removeClass("active");
+            let index = $(this).index();
+            // $("#ebook .ebook-left .con").eq(index).addClass("cur").siblings().removeClass("cur")
+            let re = $("#book .bcont .con").eq(index).show().siblings(".con").hide();
+
+
+        })
+        // 服装模块选项卡
+    $("#clothing  .ctitle .bmenu p").click(function() {
+            console.log(1);
+            $(this).addClass("active").siblings().removeClass("active");
+            let index = $(this).index();
+            // $("#ebook .ebook-left .con").eq(index).addClass("cur").siblings().removeClass("cur")
+            let re = $("#clothing .bcont .con").eq(index).show().siblings(".con").hide();
+
+
+        })
+        // 户外运动模块选项卡
+    $("#movement  .ctitle .bmenu p").click(function() {
+            console.log(1);
+            $(this).addClass("active").siblings().removeClass("active");
+            let index = $(this).index();
+            // $("#ebook .ebook-left .con").eq(index).addClass("cur").siblings().removeClass("cur")
+            let re = $("#movement .bcont .con").eq(index).show().siblings(".con").hide();
+
+
+        })
+        // 儿童服装模块选项卡
+    $("#children  .ctitle .bmenu p").click(function() {
+        console.log(1);
         $(this).addClass("active").siblings().removeClass("active");
         let index = $(this).index();
         // $("#ebook .ebook-left .con").eq(index).addClass("cur").siblings().removeClass("cur")
-        let re = $(".bcont .con").eq(index).show().siblings(".con").hide();
+        let re = $("#children .bcont .con").eq(index).show().siblings(".con").hide();
 
 
     })

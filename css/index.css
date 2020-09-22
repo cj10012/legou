@@ -104,7 +104,7 @@
     /* margin-left: 40px; */
     text-align: left;
     padding: 0 10px;
-    width: 170px;
+    width: 171px;
     border: 1px solid red;
     font-size: 12px;
     color: red;
@@ -150,11 +150,10 @@
     float: left;
     padding: 0 20px 0;
     font-size: 18px;
-    color: #000;
     cursor: pointer;
 }
 
-#book .btitle .active {
+.active {
     background-color: #f60;
     color: #fff;
 }
@@ -343,7 +342,7 @@
 
 #furniture .b_i100 {
     width: 178px;
-    height: 159px;
+    height: 163px;
     /* border: 1px solid #ccc; */
 }
 

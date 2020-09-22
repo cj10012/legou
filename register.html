@@ -19,7 +19,7 @@
     <div id="header" class="clearfix">
         <div class="top clearfix">
             <div class="wrapper clearfix">
-                <a href="#"><img src="./images/logo.jpg" alt="" class="fl"></a>
+                <a href="#"><img src="./images/logoreg_02.jpg" alt="" class="fl"></a>
                 <div class="lego fl clearfix">
                     <a href="#">legochina.cn</a>
                 </div>
@@ -39,46 +39,48 @@
     <!-- 内容 -->
 
     <div id="contreg" class="wrapper">
-
-        <form action="#" id="signupForm">
-            <p>
-                <span>用户名</span>
-                <input type="text" name="username" value="" placeholder="您的账户名和登录名">
-
-            </p>
-            <p>
-                <span>设置密码</span>
-                <input type="password" name="pwd" value="" id="pwd" placeholder="建议设置两种字符密码">
-            </p>
-            <p>
-                <span>确认密码</span>
-                <input type="password" name="pwds" value="" placeholder="再次输入密码">
-            </p>
-            <p>
-                <span>中国+86</span>
-                <input type="number" name="phone" id="phone" placeholder="建议使用常用手机号" required>
-            </p>
-            <p>
-                <span>验证码</span>
-                <input type="text" name="auth" value="" placeholder="请输入验证码">
-                <i class="verify">4E7R</i>
-            </p>
-            <p>
-                <span>手机验证码</span>
-                <input type="number" name="phoneauth" value="" placeholder="请输入手机验证码">
-                <i class="getverify">获取验证码</i>
-            </p>
-            <p class="cont_mm clearfix">
-                <input type="checkbox" name="checkbox" value="" class="cbox" required>
-                <span class="read"> 我已阅读并同意<a href="#">《乐购用户注册协议》</a></span>
-            </p>
-            <p>
-                <input type="submit" name="submit" value="立即注册">
-            </p>
+        <div class="conr">
 
 
-        </form>
+            <form action="#" id="signupForm">
+                <p>
+                    <span>用户名</span>
+                    <input type="text" name="username" value="" placeholder="您的账户名和登录名">
 
+                </p>
+                <p>
+                    <span>设置密码</span>
+                    <input type="password" name="pwd" value="" id="pwd" placeholder="建议设置两种字符密码">
+                </p>
+                <p>
+                    <span>确认密码</span>
+                    <input type="password" name="pwds" value="" placeholder="再次输入密码">
+                </p>
+                <p>
+                    <span>中国+86</span>
+                    <input type="number" name="phone" id="phone" placeholder="建议使用常用手机号" required>
+                </p>
+                <p>
+                    <span>验证码</span>
+                    <input type="text" name="auth" value="" class="input-val" placeholder="请输入验证码">
+                    <canvas id="canvas"></canvas>
+                </p>
+                <p>
+                    <span>手机验证码</span>
+                    <input type="number" name="phoneauth" value="" id="phonel" placeholder="请输入手机验证码">
+                    <i id="getverify">获取验证码</i>
+                </p>
+                <p class="cont_mm clearfix">
+                    <input type="checkbox" name="checkbox" value="" class="cbox" required>
+                    <span class="read"> 我已阅读并同意<a href="#">《乐购用户注册协议》</a></span>
+                </p>
+                <p>
+                    <input type="submit" name="submit" class="subl bkg" value="立即注册" disabled>
+                </p>
+
+
+            </form>
+        </div>
 
     </div>
 

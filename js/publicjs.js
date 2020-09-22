@@ -20,6 +20,8 @@ $(function() {
     lunbo('#slider', 400, 1000, 400);
     lunbo('#book .pptbox', 226, 328, 200);
     lunbo('#clothing .pptbox', 334, 440, 335);
+    lunbo('#movement .pptbox', 334, 440, 335);
+    lunbo('#children .pptbox', 334, 440, 335);
     lunbo('#proSider', 400, 1200, 400);
     lunbo('.prolistbox', 520, 1200, 520);
 

@@ -17,7 +17,7 @@
 
 #contreg {
     width: 500px;
-    height: 800px;
+    height: 633px;
     padding: 20px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 #contreg label {
-    margin-left: 124px;
+    margin-left: 20px;
     font-size: 16px;
     color: red;
 }
@@ -49,6 +49,10 @@ input::-webkit-input-placeholder {
     height: 18px !important;
     text-align: center;
     line-height: 59px;
+}
+
+#contreg .conr {
+    width: 651px;
 }
 
 #contreg input[type='submit'] {
@@ -85,29 +89,39 @@ input::-webkit-input-placeholder {
     top: 30px !important;
 }
 
+#contreg p .bkg {
+    background-color: #ccc;
+}
+
+#contreg p .bcg {
+    background-color: #f60;
+}
+
 
 /* 验证码 */
 
-#contreg .verify {
+#canvas {
     position: absolute;
     width: 107px;
     height: 44px;
-    background-color: #1a83e5;
+    /* background-color: #1a83e5; */
     top: 31px;
-    right: 1px;
+    right: 152px;
     text-align: center;
     line-height: 40px;
     font-size: 24px;
     font-style: normal;
     cursor: pointer;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
 
-#contreg .getverify {
+#getverify {
     position: absolute;
     width: 107px;
     height: 42px;
     top: 32px;
-    right: 1px;
+    right: 152px;
     text-align: center;
     background-color: #e6e6e6;
     line-height: 40px;

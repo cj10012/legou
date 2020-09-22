@@ -147,7 +147,7 @@
 }
 
 #discount .rec_u {
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 50px;
     /* padding: 0 20px; */
     /* border: 1px solid red; */
 }
@@ -349,7 +349,7 @@
 #exclusive .proexccon .proex .pptbox ul {
     width: 170px;
     height: 220px;
-    padding: 20px;
+    padding: 10px;
     float: left;
 }
 
@@ -370,15 +370,20 @@
 }
 
 #likebox .pro-reo {
-    height: 533px;
+    height: 480px;
     overflow: hidden;
     position: relative;
     border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 
-#likebox .pro-reo .likecont {
-    height: 480px;
+#likebox .pro-reo .box {
+    width: 100%;
     position: absolute;
+}
+
+#likebox .likelse .box .likecont {
+    height: 480px !important;
 }
 
 #likebox .likelse .likecont p {
@@ -418,7 +423,7 @@
 }
 
 #likebox .rec_u {
-    margin-left: 20px;
+    margin-left: 48px;
     /* padding: 0 20px; */
     /* border: 1px solid red; */
 }
@@ -438,7 +443,7 @@
     padding: 10px;
     width: 170px;
     /* border: 1px solid red; */
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 12px;
     color: red;
     /* background-color: #ccc; */

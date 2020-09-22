@@ -86,6 +86,10 @@
     color: #666666;
 }
 
+.c333 {
+    color: #333;
+}
+
 
 /* margin */
 
@@ -125,6 +129,10 @@
 
 .bgf60 {
     background-color: #ff6600;
+}
+
+.bgsky {
+    background-color: skyblue;
 }
 
 .bg0 {
@@ -323,13 +331,13 @@
     margin-bottom: 50px;
 }
 
-#clothing .clothings .ctitle {
+.clothings .ctitle {
     height: 40px;
     line-height: 40px;
     border-bottom: 4px solid #ff6600;
 }
 
-#clothing .clothings .ctitle h1 {
+.clothings .ctitle h1 {
     float: left;
     margin-left: 10px;
     font-size: 28px;
@@ -338,14 +346,13 @@
     font-family: SimHei;
 }
 
-#clothing .ctitle .bmenu p {
+.ctitle .bmenu p {
     float: left;
     padding: 0 20px 0;
     font-size: 18px;
-    color: #000;
 }
 
-#clothing .bcont .bcleft {
+.bcont .bcleft {
     width: 238px;
     height: 505px;
     /* border: 1px solid red; */
@@ -355,7 +362,7 @@
     position: relative;
 }
 
-#clothing .bcont .bcleft ul {
+.bcont .bcleft ul {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -363,28 +370,28 @@
     width: 238px;
 }
 
-#clothing .bcont .bcleft li {
+.bcont .bcleft li {
     margin-top: 20px;
 }
 
-#clothing .bcont .bcleft li a {
+.bcont .bcleft li a {
     margin-right: 10px;
 }
 
 
 /* 右边 */
 
-#clothing .bcont .bckright {
+.bcont .bckright {
     width: 960px;
     height: 500px;
     /* border: 1px solid #ccc; */
 }
 
-#clothing .bcont .bckright .bclu {
+.bcont .bckright .bclu {
     width: 400px;
 }
 
-#clothing .bcont .bckright li {
+.bcont .bckright li {
     float: left;
     text-align: left;
     font-size: 14px;
@@ -392,37 +399,37 @@
     box-sizing: border-box;
 }
 
-#clothing .bckright .bclu {
+.bckright .bclu {
     width: 441px !important;
 }
 
-#clothing .clo_i11 {
+.clo_i11 {
     width: 441px;
 }
 
-#clothing .bckright .clo_i23 {
+.bckright .clo_i23 {
     width: 173px;
     height: 340px;
 }
 
-#clothing .clo_i11 img {
+.clo_i11 img {
     width: 441px;
 }
 
-#clothing .b_i100 {
+.b_i100 {
     width: 173px;
     height: 167px;
     /* border: 1px solid red; */
 }
 
-#clothing .b_i100 img {
+.b_i100 img {
     width: 171px;
 }
 
-#clothing .brand {
-    margin-top: 20px;
+.brand {
+    margin: 40px 0;
 }
 
-#clothing .brand img {
+.brand img {
     width: 130px;
 }
